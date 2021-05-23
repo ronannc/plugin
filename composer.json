@@ -8,7 +8,6 @@
             "email": "ronan.nunes@prumoengenharia.com.br"
         }
     ],
-    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
