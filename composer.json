@@ -1,0 +1,19 @@
+{
+    "name": "ronan/plugin",
+    "description": "plugin feito como parte do requisito para concorrer a vaga de desenvolvedor full stack",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronan Nunes",
+            "email": "ronan.nunes@prumoengenharia.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ronan\\plugin\\": "src/"
+        }
+    }
+}
