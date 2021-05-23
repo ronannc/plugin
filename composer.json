@@ -1,7 +1,6 @@
 {
     "name": "ronan/plugin",
     "description": "plugin feito como parte do requisito para concorrer a vaga de desenvolvedor full stack",
-    "type": "library",
     "license": "MIT",
     "authors": [
         {
