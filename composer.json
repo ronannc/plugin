@@ -10,6 +10,7 @@
     ],
     "require": {},
     "minimum-stability": "stable",
+    "type": "library",
     "autoload": {
         "psr-4": {
             "Ronan\\plugin\\": "src/"
