@@ -39,6 +39,7 @@ class ConfigService
 
     /**
      * Função responsavel por tentar atualizar uma configuração de id passado
+     *
      * @param array $data
      * @param $id
      * @return array|\Illuminate\Database\Eloquent\Model
@@ -74,6 +75,8 @@ class ConfigService
     }
 
     /**
+     * Função responsavel por deletar uma configuração
+     *
      * @param $id
      * @return array|null
      */

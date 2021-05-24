@@ -23,7 +23,7 @@ class PlotsSaleService
      * Requisição http na rota /vendas
      *
      * Headers [Client-Code, Client-Key, Content-Type -> application/Json] recuperados do banco de dados (sempre primeira posição)
-     * Params [nu_referencia dfault(REF0001), nu_venda default(38425-uGet3-2KFMj), page default(0), per_page default(10), dt_venda default(2020-04-14), ]
+     * Params [nu_referencia, nu_venda, page, per_page, dt_venda ]
 
      *
      * @param $params

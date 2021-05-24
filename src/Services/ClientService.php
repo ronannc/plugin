@@ -23,7 +23,7 @@ class ClientService
      * Requisição http na rota /clientes
      *
      * Headers [Client-Code, Client-Key, Content-Type -> application/Json] recuperados do banco de dados (sempre primeira posição)
-     * Params [nu_cliente, nu_documento, ds_email, ds_cep, page (default 1), per_page default(15), dt_inicial default(2019-01-01), dt_final]
+     * Params [nu_cliente, nu_documento, ds_email, ds_cep, page, per_page, dt_inicial, dt_final]
 
      *
      * @param $params
