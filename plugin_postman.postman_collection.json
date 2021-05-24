@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "a695f545-5622-48dc-aefe-2b2d78a40349",
+		"name": "TESTE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET CLIENTE",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Client-Code",
+						"value": "FC-SB-15",
+						"type": "text"
+					},
+					{
+						"key": "Client-key",
+						"value": "6ea297bc5e294666f6738e1d48fa63d2",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-sandbox.fpay.me/clientes?nu_cliente=&page=1&per_page=15&dt_inicial=2019-01-01",
+					"protocol": "https",
+					"host": [
+						"api-sandbox",
+						"fpay",
+						"me"
+					],
+					"path": [
+						"clientes"
+					],
+					"query": [
+						{
+							"key": "nu_cliente",
+							"value": ""
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "15"
+						},
+						{
+							"key": "dt_inicial",
+							"value": "2019-01-01"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PARCELAS VENDA",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Client-Code",
+						"value": "FC-SB-15",
+						"type": "text"
+					},
+					{
+						"key": "Client-key",
+						"value": "6ea297bc5e294666f6738e1d48fa63d2",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-sandbox.fpay.me/vendas?page=0&per_page=10&nu_venda=33743-2DWFM-NePpl",
+					"protocol": "https",
+					"host": [
+						"api-sandbox",
+						"fpay",
+						"me"
+					],
+					"path": [
+						"vendas"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "per_page",
+							"value": "10"
+						},
+						{
+							"key": "nu_venda",
+							"value": "33743-2DWFM-NePpl"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
