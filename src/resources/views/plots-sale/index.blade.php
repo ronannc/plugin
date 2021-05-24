@@ -4,14 +4,14 @@
     @include('plugin::layout.flash-messages')
 
     <div class="container">
-
         <form action="{{route('plots-sale.index')}}" method="GET">
             <div class="row">
                 <div class="col-3">
                     <label for="" class="form-label">Configuração (header)</label>
                     <select class="form-select" aria-label="Configuração (header)" name="params[header]">
                         @foreach($extraData as $config)
-                            <option value="{{$config['id']}}" {{isset($params['header']) && $params['header'] == $config['id'] ? 'selected' : '' }}>{!! $config['client_code'] !!}</option>
+                            <option
+                                value="{{$config['id']}}" {{isset($params['header']) && $params['header'] == $config['id'] ? 'selected' : '' }}>{!! $config['client_code'] !!}</option>
                         @endforeach
                     </select>
                 </div>
@@ -45,8 +45,6 @@
                 </div>
             </div>
         </form>
-
-
     </div>
 
     <h3>Vendas</h3>
@@ -91,10 +89,11 @@
         </tbody>
     </table>
 
-    @if(!isset($data) && $data['success'])
+    @if(isset($data) && $data['success'])
         @php $count = 0 @endphp
         @foreach($data['data'] as $venda)
-            <div class="modal fade" id="modal{{$count}}" tabindex="-1" aria-labelledby="modal{{$count}}" aria-hidden="true">
+            <div class="modal fade" id="modal{{$count}}" tabindex="-1" aria-labelledby="modal{{$count}}"
+                 aria-hidden="true">
                 <div class="modal-dialog modal-xl">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -134,8 +133,8 @@
                         </div>
                     </div>
                 </div>
-            </div>                @php $count = $count + 1 @endphp
-
+            </div>
+            @php $count = $count + 1 @endphp
         @endforeach
     @endif
 </div>
