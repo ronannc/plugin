@@ -1,9 +1,9 @@
 <?php
 
-namespace Ronan\plugin\Services;
+namespace ronannc\plugin\Services;
 
 
-use Ronan\plugin\Repositories\Contracts\ConfigRepository;
+use ronannc\plugin\Repositories\Contracts\ConfigRepository;
 
 class ConfigService
 {

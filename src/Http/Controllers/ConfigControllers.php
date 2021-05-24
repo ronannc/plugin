@@ -1,10 +1,10 @@
 <?php
 
-namespace Ronan\plugin\Http\Controllers;
+namespace ronannc\plugin\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Ronan\plugin\Services\ConfigService;
+use ronannc\plugin\Services\ConfigService;
 
 class ConfigControllers extends Controller
 {

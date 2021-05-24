@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Ronan\plugin\Http\Controllers\ClientControllers;
-use Ronan\plugin\Http\Controllers\PlotsSaleControllers;
-use Ronan\plugin\Http\Controllers\ConfigControllers;
+use ronannc\plugin\Http\Controllers\ClientControllers;
+use ronannc\plugin\Http\Controllers\PlotsSaleControllers;
+use ronannc\plugin\Http\Controllers\ConfigControllers;
 
 /**
  * Rotas web do plugin

@@ -1,9 +1,9 @@
 <?php
 
-namespace Ronan\plugin\Repositories;
+namespace ronannc\plugin\Repositories;
 
 use App\Models\User;
-use Ronan\plugin\Repositories\Contracts\BaseRepository;
+use ronannc\plugin\Repositories\Contracts\BaseRepository;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Support\Facades\Auth;

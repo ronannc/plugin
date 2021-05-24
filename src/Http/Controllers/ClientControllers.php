@@ -1,11 +1,11 @@
 <?php
 
-namespace Ronan\plugin\Http\Controllers;
+namespace ronannc\plugin\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Ronan\plugin\Services\ClientService;
-use Ronan\plugin\Services\ConfigService;
+use ronannc\plugin\Services\ClientService;
+use ronannc\plugin\Services\ConfigService;
 
 class ClientControllers extends Controller
 {

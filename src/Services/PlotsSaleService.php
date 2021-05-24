@@ -1,6 +1,6 @@
 <?php
 
-namespace Ronan\plugin\Services;
+namespace ronannc\plugin\Services;
 
 
 use Illuminate\Support\Facades\Http;

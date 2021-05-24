@@ -1,6 +1,6 @@
 <?php
 
-namespace Ronan\plugin\Models;
+namespace ronannc\plugin\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

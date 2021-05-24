@@ -1,11 +1,11 @@
 <?php
 
-namespace Ronan\plugin;
+namespace ronannc\plugin;
 
 use Illuminate\Support\ServiceProvider;
-use Ronan\plugin\Models\Config;
-use Ronan\plugin\Repositories\Contracts\ConfigRepository;
-use Ronan\plugin\Repositories\EloquentConfigRepository;
+use ronannc\plugin\Models\Config;
+use ronannc\plugin\Repositories\Contracts\ConfigRepository;
+use ronannc\plugin\Repositories\EloquentConfigRepository;
 
 
 class PluginServiceProvider extends ServiceProvider

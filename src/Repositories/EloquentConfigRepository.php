@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Ronan\plugin\Repositories;
+namespace ronannc\plugin\Repositories;
 
-use Ronan\plugin\Models\Config;
-use Ronan\plugin\Repositories\Contracts\ConfigRepository;
+use ronannc\plugin\Models\Config;
+use ronannc\plugin\Repositories\Contracts\ConfigRepository;
 
 class EloquentConfigRepository extends AbstractEloquentRepository implements ConfigRepository
 {

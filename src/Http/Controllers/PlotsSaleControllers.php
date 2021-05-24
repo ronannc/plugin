@@ -1,11 +1,11 @@
 <?php
 
-namespace Ronan\plugin\Http\Controllers;
+namespace ronannc\plugin\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Ronan\plugin\Services\PlotsSaleService;
-use Ronan\plugin\Services\ConfigService;
+use ronannc\plugin\Services\PlotsSaleService;
+use ronannc\plugin\Services\ConfigService;
 
 class PlotsSaleControllers extends Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ronan\plugin\Repositories\Contracts;
+namespace ronannc\plugin\Repositories\Contracts;
 
 
 interface ConfigRepository extends BaseRepository

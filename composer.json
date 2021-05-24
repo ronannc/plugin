@@ -1,5 +1,5 @@
 {
-    "name": "ronan/plugin",
+    "name": "ronannc/plugin",
     "type": "library",
     "description": "plugin feito como parte do requisito para concorrer a vaga de desenvolvedor full stack",
     "license": "MIT",
@@ -11,7 +11,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ronan\\plugin\\": "src/"
+            "ronannc\\plugin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ronannc\\plugin\\": "packages/ronannc/plugin/src",
+            "Tests\\": "tests/"
         }
     }
 }
