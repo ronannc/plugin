@@ -20,7 +20,7 @@ class CreateConfigTable extends Migration
             $table->timestamps();
         });
 
-        \ronannc\pluguin\Models\Config::create(
+        \ronannc\plugin\Models\Config::create(
             ['client_code' => 'FC-SB-15', 'client_key' => '6ea297bc5e294666f6738e1d48fa63d2']
         );
     }
